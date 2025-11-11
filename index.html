@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Responsive Layout</title>
+
+   <!-- Link Google font -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+   <!-- link external CSS -->
+   <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+   <!-- header section -->
+   <header class="page-header" id="homeNav">
+      <div class="container row">
+         <button class="nav-toggle" aria-label="open navigation">
+            <span class="toggle-button"></span>
+         </button>
+         <a class="logo" href="#homeNav">
+            <img src="./img/logo.svg" alt="web page logo">
+         </a>
+         <nav class="nav-bar">
+            <ul class="row">
+               <li class="nav-item"><a href="#heroHome" class="nav-link">home</a></li>
+               <li class="nav-item"><a href="#aboutPage" class="nav-link">about</a></li>
+               <li class="nav-item"><a href="#contact" class="nav-link">contact</a></li>
+            </ul>
+            <ul class="row">
+               <li class="nav-item"><a href="" class="nav-link">sign in</a></li>
+               <li class="nav-item"><a href="" class="nav-link nav-button">sign up</a></li>
+            </ul>
+         </nav>
+      </div>
+   </header>
+   <!-- hero section -->
+   <section class="hero" id="heroHome">
+      <div class="container row">
+         <div class="hero-title">
+            <h1>Responsive layouts <span>don't have to be a struggle</span></h1>
+         </div>
+         <div class="hero-paragraph">
+            <div class="hero-p"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <div class="hero-button">
+               <a class="learn-button" href="">i want to learn</a></div>
+         </div>
+      </div>
+   </section>
+   <!-- description section -->
+   <section class="description" id="aboutPage">
+      <div class="container row">
+         <div class="description-item">
+            <h3>Mobile-first</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+         </div>
+         <div class="description-item">
+            <h3>Efficient</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+         </div>
+         <div class="description-item">
+            <h3>Done right</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+         </div>
+      </div>
+   </section>
+   <!-- content section -->
+   <section class="content">
+      <div class="container row-two">
+         <div class="content-one">
+            <h3 class="content-title">It doesn't have to be so hard</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+            <img class="content-image" src="./img/hero-img.jpg" alt="responsive layout image">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+         </div>
+         <div class="content-two">
+            <div class="content-item">
+               <h3>Break it down</h3>
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+            </div>
+            <div class="content-item">
+               <h3>Work your way up</h3>
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+            </div>
+            <div class="content-item">
+               <h3>Break it down</h3>
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- footer section -->
+   <footer class="page-footer" id="contact">
+      <div class="container">
+         <h2>Just scratching the surface</h2>
+         <div class="footer-list row">
+            <div class="footer-para">
+               <h3>About our company</h3>
+               <p class="footer-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+            </div>
+            <div class="footer-item">
+               <h3>Getting around</h3>
+               <ul>
+                  <li>Home</li>
+                  <li>About</li>
+                  <li>Contact</li>
+               </ul>
+            </div>
+            <div class="footer-item">
+               <h3>Other things</h3>
+               <ul>
+                  <li>Lorem ipsum</li>
+                  <li>dolor</li>
+                  <li>sit amet</li>
+                  <li>consectetur</li>
+               </ul>
+            </div>
+            <div class="footer-item">
+               <h3>And more</h3>
+               <ul>
+                  <li>Lorem ipsum</li>
+                  <li>dolor</li>
+                  <li>sit amet</li>
+                  <li>consectetur</li>
+               </ul>
+            </div>
+         </div>
+      </div>
+   </footer>
+
+   <!-- link javaScript -->
+   <script src="./main.js"></script>
+</body>
+</html>
