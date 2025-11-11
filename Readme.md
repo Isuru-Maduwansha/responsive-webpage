@@ -1,7 +1,7 @@
 ### Links
 
 - Solution URL: [Solution URL here](https://github.com/Isuru-Maduwansha/responsive-webpage)
-- Live Site URL: [Live site URL here](https://newsletter-sign-up-iota-gold.vercel.app/)
+- Live Site URL: [Live site URL here](https://vercel.com/isuru-maduwanshas-projects/responsive-webpage)
 
 ### Built with
 
